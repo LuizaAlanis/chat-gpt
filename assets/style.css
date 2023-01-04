@@ -1,0 +1,36 @@
+body {
+    animation: color-change 5s infinite;
+    transition: background-color 2s;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+@keyframes color-change {
+    0% {
+        background-color: #A7A1CE;
+    }
+    25% {
+        background-color: #BE97C6;
+    }
+    50% {
+        background-color: #8661C1;
+    }
+    100% {
+        background-color: #A7A1CE;
+    }
+}
+
+button {
+    min-width: 200px;
+    height: 50px;
+    background-color: #2E294E;
+    border: none;
+    border-radius: 25px;
+    color: white;
+    cursor: pointer;
+}
